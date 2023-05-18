@@ -52,7 +52,7 @@ public class User {
 	/**
 	 * @return the role
 	 */
-	public String getRole() {
+	public String getRole(int userID) {
 		return role;
 	}
 	/**

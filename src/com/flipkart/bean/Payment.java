@@ -6,7 +6,6 @@ package com.flipkart.bean;
  */
 public class Payment {
 	private int studentID;
-	private String referenceID;
 	private float amount;
 	private boolean status ;
 	
@@ -25,15 +24,11 @@ public class Payment {
 	/**
 	 * @return the referenceID
 	 */
-	public String getReferenceID() {
-		return referenceID;
-	}
+	
 	/**
 	 * @param referenceID the referenceID to set
 	 */
-	public void setReferenceID(String referenceID) {
-		this.referenceID = referenceID;
-	}
+
 	/**
 	 * @return the amount
 	 */

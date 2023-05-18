@@ -5,7 +5,7 @@ package com.flipkart.bean;
  * @author cyrus.dwivedi
  *
  */
-public class PaymentNotification {
+public class PaymentNotification extends Payment{
 	
 	private int studentID;
 	private int referenceID;
