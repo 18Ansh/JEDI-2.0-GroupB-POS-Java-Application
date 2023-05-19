@@ -11,8 +11,8 @@ import java.util.Scanner;
  */
 public class CRSProfessorMenu {
 	public static void displayMenu() {
-		System.out.println("1. Generate Report Card");
-		System.out.println("2. Add Professor");
+		System.out.println("1. AddGrades");
+		System.out.println("2. View Enrolled Students");
 		System.out.println("3. Exit");
 	}
 	
